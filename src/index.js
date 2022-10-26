@@ -1,5 +1,4 @@
 import "./styles/layout.css"; 
-import "./styles/header.css";
 
 
 import BasicLayout from './layout/basic.js'; 
@@ -14,6 +13,7 @@ class Restaurant {
     const layout = new BasicLayout(); 
     layout.setLayout;
     layout.setHeader;
+    layout.setFooter;
   }
 
 }
