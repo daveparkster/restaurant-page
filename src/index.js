@@ -1,5 +1,4 @@
-
-import "./styles/index.css"; 
+import "./styles/layout.css"; 
 
 
 import BasicLayout from './layout/basic.js'; 
