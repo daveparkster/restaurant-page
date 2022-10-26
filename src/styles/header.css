@@ -1,0 +1,40 @@
+:root {
+  --text-color: white;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header > * {
+  flex: 1 1;
+}
+
+.header-top {
+  color: var(--text-color);
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  word-spacing: -2rem;
+}
+
+.header-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bot > * {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  width: 5%;
+  background: none;
+  border: none;
+}
+
+.header-bot button:hover {
+  background-color: rgb(133, 133, 247);
+}
