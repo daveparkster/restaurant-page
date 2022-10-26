@@ -45,6 +45,11 @@ class BasicLayout {
     aboutButton.textContent = "About";
   }
 
+  get setFooter() {
+    let footer = document.querySelector('.footer');
+    footer.textContent = "Created by: daveparkster";
+  }
+
 }
 
 export default BasicLayout; 
