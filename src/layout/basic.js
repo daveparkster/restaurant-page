@@ -29,20 +29,20 @@ class BasicLayout {
     
     let home = document.createElement('button');
     let menu = document.createElement('button');
-    let about = document.createElement('button'); 
+    let contact = document.createElement('button'); 
 
     let options = document.querySelector('.header-bot');
     options.appendChild(home).classList.add('home-button');
     options.appendChild(menu).classList.add('menu-button');
-    options.appendChild(about).classList.add('about-button');
+    options.appendChild(contact).classList.add('contact-button');
 
     let homeButton = document.querySelector('.home-button');
     let menuButton = document.querySelector('.menu-button');
-    let aboutButton = document.querySelector('.about-button');
+    let contactButton = document.querySelector('.contact-button');
 
     homeButton.textContent = "Home";
     menuButton.textContent = "Menu";
-    aboutButton.textContent = "About";
+    contactButton.textContent = "Contact";
   }
 
   get setFooter() {
