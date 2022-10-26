@@ -2,10 +2,10 @@
   --text-color: white;
 }
 
-
 .header {
   display: flex;
   flex-direction: column;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .header > * {
