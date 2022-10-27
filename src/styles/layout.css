@@ -1,5 +1,8 @@
 @import "./header.css";
 @import "./footer.css";
+@import "./main/contact.css";
+@import "./main/home.css";
+@import "./main/menu.css";
 
 html,
 body {
