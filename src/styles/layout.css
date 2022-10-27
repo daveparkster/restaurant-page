@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('../img/hotdog.jpg');
+  background-size: cover;
 }
 
 #content {
@@ -22,7 +23,7 @@ body {
 }
 
 .header {
-  flex: 1.5 1.5;
+  flex: 4 4;
 }
 
 .main {
