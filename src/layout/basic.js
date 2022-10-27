@@ -1,6 +1,6 @@
 class BasicLayout {
   constructor() {
-
+    //placeholder
   }
 
   get setLayout() {
@@ -47,7 +47,7 @@ class BasicLayout {
 
   get setFooter() {
     let footer = document.querySelector('.footer');
-    footer.textContent = "Created by: daveparkster";
+    footer.textContent = "Image by jcomp on Freepik;Photo by Eiliv Aceron on Unsplash";
   }
 
 }
