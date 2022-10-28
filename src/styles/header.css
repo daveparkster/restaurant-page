@@ -5,23 +5,21 @@
 .header {
   display: flex;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.header > * {
-  flex: 1 1;
+  background: rgba(0, 0, 0, 0.685);
 }
 
 .header-top {
+  flex: 2 2;
   color: var(--text-color);
   font-size: 4rem;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  word-spacing: -2rem;
+  word-spacing: -2.2rem;
 }
 
 .header-bot {
+  flex: 1 1;
   display: flex;
   justify-content: center;
   align-items: center;
