@@ -4,9 +4,9 @@
 }
 
 .main-home {
-  width: calc(100% / 2.7);
+  width: 40%;
   margin: 3rem 0 3rem 0; 
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.685);
   color: #fff;
   display: flex;
   flex-direction: column;
