@@ -29,10 +29,16 @@ class Restaurant {
     menu.createMenu;
   }
 
+  get addContact() {
+    const contact = new Contact();
+    contact.createContact;
+  }
+
 }
 
 const restaurant = new Restaurant();
 restaurant.createPage;
 //restaurant.addHome;
-restaurant.addMenu;
+//restaurant.addMenu;
+restaurant.addContact;
 
