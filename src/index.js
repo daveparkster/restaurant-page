@@ -24,8 +24,15 @@ class Restaurant {
     home.createHome;
   }
 
+  get addMenu() {
+    const menu = new Menu();
+    menu.createMenu;
+  }
+
 }
 
 const restaurant = new Restaurant();
 restaurant.createPage;
-restaurant.addHome;
+//restaurant.addHome;
+restaurant.addMenu;
+
