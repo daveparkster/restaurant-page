@@ -1,9 +1,0 @@
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  word-spacing: -0.5rem;
-  background: rgba(0,0,0,0.685);
-  color: #fff;
-  font-size: 0.8rem;
-}
