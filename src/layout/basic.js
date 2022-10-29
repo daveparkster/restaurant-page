@@ -47,7 +47,7 @@ class BasicLayout {
 
   get setFooter() {
     let footer = document.querySelector('.footer');
-    footer.textContent = "Image by jcomp on Freepik;Photo by Eiliv Aceron on Unsplash";
+    footer.textContent = "Image by jcomp on Freepik ; Photo by Eiliv Aceron on Unsplash";
   }
 
 }
